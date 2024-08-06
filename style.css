@@ -1,0 +1,259 @@
+body{
+    height: auto;
+    width: 100%;
+    margin: 5px;
+}
+.background {
+    position: relative;
+    display: inline-block;
+
+}
+
+.background img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.sider {
+    height: 20px;
+    width: 20px;
+
+}
+.icon{
+    width: 100%;
+    margin-left: 15%;
+}
+
+.second {
+   
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: auto;
+    padding-left: 5%;
+}
+
+.head {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    max-width: auto;
+    min-width: auto;
+    width: 100%;
+}
+
+.nav-bar>li {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.bg {
+    text-align: center;
+    color: #fef8f8;
+    padding: 220px;
+}
+
+.mid-head {
+    text-align: center;
+}
+
+.sider {
+    padding: 7px;
+}
+
+.sp {
+    color: palevioletred;
+}
+
+.search-icon>img {
+    height: 20px;
+    width: 20px;
+
+}
+
+.text {
+    justify-items: right;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.search {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+.search {
+    display: inline-block;
+}
+
+.search input {
+    width: 500px;
+    height: 32px;
+
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.search input {
+    text-indent: 32px;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.search .fa-search {
+    left: auto;
+    right: 10px;
+}
+.rj{
+    margin-left: 5%;
+}
+.rj>img {
+    height: 70%;
+    width: 130px;
+}
+
+.one {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+}
+
+.one>img {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+.text-mid {
+    position: absolute;
+    top: 75%;
+    right: 27%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+
+}
+
+.row {
+    margin-left: 7.5%;
+    margin-right: 5%;
+}
+
+button {
+
+    position: absolute;
+    top: 82%;
+    right: 65%;
+    padding: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.bg-2>img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: cover;
+
+}
+
+.text-middle {
+    position: absolute;
+
+    left: 2%;
+    transform: translate(10px, -180px);
+    color: rgb(245, 241, 241);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.btn {
+    text-align: center;
+    position: absolute;
+    margin-top: 25px;
+    margin-right: 5%;
+    background-color: #d4b189a7;
+    color: #fff;
+}
+
+.spn {
+    font-size: medium;
+}
+
+.head-2 {
+    text-align: center;
+    font-style: normal;
+}
+
+.img-text {
+    margin-left: 6%;
+    margin-right: 5%;
+}
+
+.img-text>img {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content {
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+}
+
+.content-one {
+    margin-left: 2.5%;
+    padding-right: 142px;
+    padding-left: 5%;
+    display: flex;
+    background: rgba(166, 168, 168, 0.301);
+}
+
+.content-two {
+    margin-left: 26px;
+    padding-right: 132px;
+    display: flex;
+    background: rgb(166, 168, 168,0.301);
+}
+
+.content-three {
+    margin-left: 25px;
+    padding-right: 131px;
+    display: flex;
+    background:rgb(166, 168, 168,0.301);
+}
